@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamenPM02_P1_AmnerSauceda.Android", "ExamenPM02_P1_AmnerSauceda.Android\ExamenPM02_P1_AmnerSauceda.Android.csproj", "{5B4CF493-05BA-4DFC-A993-44CB7FC2E5C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamenPM02_P1_AmnerSauceda", "ExamenPM02_P1_AmnerSauceda\ExamenPM02_P1_AmnerSauceda.csproj", "{8259D806-1A9D-41F3-B609-95EF042FDAD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B4CF493-05BA-4DFC-A993-44CB7FC2E5C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B4CF493-05BA-4DFC-A993-44CB7FC2E5C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B4CF493-05BA-4DFC-A993-44CB7FC2E5C0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5B4CF493-05BA-4DFC-A993-44CB7FC2E5C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B4CF493-05BA-4DFC-A993-44CB7FC2E5C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B4CF493-05BA-4DFC-A993-44CB7FC2E5C0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8259D806-1A9D-41F3-B609-95EF042FDAD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8259D806-1A9D-41F3-B609-95EF042FDAD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8259D806-1A9D-41F3-B609-95EF042FDAD8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8259D806-1A9D-41F3-B609-95EF042FDAD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8259D806-1A9D-41F3-B609-95EF042FDAD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8259D806-1A9D-41F3-B609-95EF042FDAD8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {227F1EFE-CC6D-499D-9ED5-3DD4AE296497}
+	EndGlobalSection
+EndGlobal

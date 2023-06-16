@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExamenPM02_P1_AmnerSauceda.Views.PageGridSitios"
+             xmlns:conver="clr-namespace:ExamenPM02_P1_AmnerSauceda.Controllers">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#2196F3" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="Margin" Value="10" />
+                <Setter Property="Padding" Value="10" />
+                <Setter Property="FontSize" Value="16" />
+            </Style>
+            <Style TargetType="Entry">
+                <Setter Property="Margin" Value="10" />
+                <Setter Property="FontSize" Value="16" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <CollectionView x:Name="listaSitios"
+                        SelectionMode="Single"
+                        SelectionChanged="listaSitios_SelectionChanged">
+
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Vertical" 
+                                   ItemSpacing="10">
+                    </LinearItemsLayout>
+                </CollectionView.ItemsLayout>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Label Text="{Binding Descripcion}" FontSize="Large"/>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+
+            </CollectionView>
+         
+            <Button Text="Eliminar Sitio" Clicked="Button_eliminarCasa"/>
+            <Button Text="Ver Mapa" Clicked="Button_verMapa"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
